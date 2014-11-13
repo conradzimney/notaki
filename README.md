@@ -28,13 +28,15 @@ Telemetry
 
 	```
 	{
-		"ABABBA": "Something",
-		"ABBBBA": "Something else",
+		"ABABBA": "foo",
+		"ABBBBA": "bar",
 		// etc
 	}
 	```
 
 	At any time it should be possible to overwrite the rules with a new set and any current pattern state should be discarded.
+	
+	When the server recognizes a pattern matching one of the rules object's keys it should write the corresponding value to the output file.
 
 4. When the server works write a couple tests that verify the server works as expected. Please use Mocha and Chai. 
 
