@@ -5,7 +5,7 @@ Telemetry
 2. Create a new branch.
 3. Write a small express 4.x application that handles a telemetry stream. Feel free to use other npm modules too.
 
-	The goal of the application is to accept a stream of messages where each message contains a string. The server should maintain a list of string patterns and should attempt to recognize these patterns in the stream of incoming messages. When the server recognizes a pattern it should append the rule's output to a file.
+	The goal of the application is to permorm pattern recognition on a stream of messages where each message contains a string. The server should maintain a suitable data structure whose input is json received on route `/rules/update` and should attempt to recognize these patterns in the stream of incoming messages on route `message/create`. When the server recognizes a pattern it should append the rule's output to a file.
 
 	## Routes
 
