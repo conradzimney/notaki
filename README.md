@@ -41,4 +41,4 @@ Telemetry
 
 4. When the server works write a couple tests that verify the server works as expected. A single "works with the right input" test and a single "doesnt work with the wrong input" test is plenty, no need to go crazy here. If you're comfortable with Mocha and Chai those are preferred, but other test frameworks and assertion modules work fine too. 
 
-5. Submit a pull request with your changes to this repository.
+5. Package up your submission as a zip or tar.gz file and email it to alec at azuqua dot com.
